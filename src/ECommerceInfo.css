@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
 .luxury-container {
   direction: rtl;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,7 +9,7 @@
 }
 
 .luxury-hero {
-  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('C:\Users\Wjs digital\Downloads\ChatGPT Image Jun 4, 2025, 01_03_22 PM.png');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -18,7 +20,6 @@
 }
 
 .luxury-hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 40px;
   border-radius: 12px;
   text-align: center;
@@ -28,15 +29,27 @@
 
 .luxury-title {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1%;
   font-weight: 700;
+  margin-left: 30%;
+  background: linear-gradient(90deg, #ffffff, #b8d7ff);
+  background-clip: text;             /* הסטנדרטי */
+  -webkit-background-clip: text;     /* WebKit (Chrome, Safari) */
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1.2s ease-in-out;
+
 }
 
 .luxury-subtitle {
-  font-size: 1.3rem;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.4rem;
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  margin-left: 30%;
+  animation: fadeIn 1.2s ease-in-out;
+
 }
+
 
 .luxury-cta {
   background-color: #d4af37;
@@ -55,18 +68,32 @@
 }
 
 .section-heading {
-  font-size: 2rem;
+  font-family: 'Heebo', sans-serif;
+  font-size: 3rem;
   text-align: center;
   margin: 3rem 0 1.5rem;
-  color: #343a40;
+  color: #084581;
+  animation: slideFadeIn 1s ease-out;
+}
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(2);
+  }
 }
 
 .luxury-about,
 .luxury-contact {
-  max-width: 800px;
+  font-family: 'Heebo', sans-serif;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
+  color: #130b0b;
 }
 
 .luxury-about p,
@@ -119,12 +146,15 @@
   line-height: 2;
   font-size: 1.1rem;
   color: #333;
+  text-align: center;
 }
 
 .luxury-list li {
+  display: inline-flex;
   margin-bottom: 0.5rem;
   padding-right: 1.2rem;
   position: relative;
+  margin-left: 0.5rem;
 }
 
 .luxury-list li::before {
@@ -141,14 +171,16 @@
 }
 
 .luxury-button {
-  background-color: #d4af37;
+  font-family: 'Heebo', sans-serif;
+  background-color: #ddbe57fa;
   color: #000;
   border: none;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 3rem;
   font-size: 1rem;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+    margin-bottom: 2rem;
 }
 
 .luxury-button:hover {
@@ -157,9 +189,10 @@
 }
 
 .section-text {
+  font-family: 'Heebo', sans-serif;
   font-size: 1.1rem;
-  line-height: 1.8;
-  color: #555;
+  line-height: 1.0;
+  color: #130b0b;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
@@ -169,12 +202,16 @@
 /* Animations */
 .fade-in {
   animation: fadeIn 1.2s ease-in-out;
+  text-align: center;
+
 }
 
 .slide-up {
   transform: translateY(40px);
   opacity: 0;
   animation: slideUp 0.8s ease forwards;
+  text-align: center;
+
 }
 
 .delay-1 { animation-delay: 0.3s; }
