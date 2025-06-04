@@ -1,0 +1,83 @@
+/* Use Rubik font everywhere */
+body, .container, .label, h2, p {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  min-height: 25vh;
+  padding: 2rem;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.animation-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.animation-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+.animation-row::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #e5e5e5;
+  z-index: 0;
+}
+
+.label {
+  min-width: 160px;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateX(30px);
+}
+
+/* Colors */
+.bg-blue { background-color: #3b82f6; }
+.bg-green { background-color: #10b981; }
+.bg-purple { background-color: #8b5cf6; }
+.bg-orange { background-color: #f97316; }
