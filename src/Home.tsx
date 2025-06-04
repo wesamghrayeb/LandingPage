@@ -110,19 +110,21 @@ const MaldivesLanding: React.FC = () => {
             <img src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg" alt="Maldives Resort" />
             <h3>דפי נחיתה</h3>
             <p>מסר חד ועיצוב ממוקד, הנעה לפעולה וסגירת עסקה </p>
-            <button>לפרטים</button>
-          </div>
+        <Link to="/ecommerce">
+          <button className="ecommerce-button">לפרטים</button>
+            </Link>          </div>
 
           <div className="destination-card border-anim">
             <img src="https://dmacmedia.com/ie/site/uploads/sys_articles/2748/3d-render-social-media-icon-collection.webp" alt="Snorkeling Maldives" />
             <h3>אתרי אינטרנט </h3>
             <p>נוכחות מרשימה, מותאם אישית, מוכן לקידום.</p>
-            <button>לפרטים</button>
-          </div>
+        <Link to="/WebsiteDevelopment">
+          <button className="ecommerce-button">לפרטים</button>
+            </Link>          </div>
 
           <div className="destination-card border-anim">
             <img src="https://projexcrm.co.uk/wp-content/uploads/2023/02/CRM-11.webp" alt="Maldives Sunset" />
-            <h3>E Commerce</h3>
+            <h3>חנויות דיגיטלית</h3>
             <p>מכירה ישירה, סל קניות, תשלום מהיר</p>
         <Link to="/ecommerce">
           <button className="ecommerce-button">לפרטים</button>
@@ -137,14 +139,6 @@ const MaldivesLanding: React.FC = () => {
         <p>הקמפיינים שלנו מתוזמנים, ממוקדים, ומבוססי נתונים – בדיוק איפה  שהקהל שלך נמצא.</p>
       </section>
 
-      <div className="animated-social-icons">
-        <ul>
-          <li><a href="#"><i className="fab fa-facebook-f icon"></i><span> - Facebook</span></a></li>
-          <li><a href="#"><i className="fab fa-twitter icon"></i><span> - Twitter</span></a></li>
-          <li><a href="#"><i className="fab fa-google icon"></i><span> - Google</span></a></li>
-          <li><a href="#"><i className="fab fa-instagram icon"></i><span> - Instagram</span></a></li>
-        </ul>
-      </div>
 
       <section className="faq-section">
         <h2>שאלות נפוצות</h2>

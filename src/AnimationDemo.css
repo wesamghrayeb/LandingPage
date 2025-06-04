@@ -40,16 +40,19 @@ p {
   width: 100%;
   max-width: 600px;
   position: relative;
+  padding: 0.5rem 0;
+
 }
 
 .animation-row::before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 0;
+  top: 60%; /* ⬅️ Pushes line down */
+  left: 50px;
   right: 0;
-  height: 2px;
-  background-color: #e5e5e5;
+  height: 1px;
+  background-color: #dcdcdc;
+  opacity: 0.4;
   z-index: 0;
 }
 
@@ -70,6 +73,7 @@ p {
   position: relative;
   z-index: 1;
   cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .box:hover {
