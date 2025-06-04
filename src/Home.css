@@ -7,7 +7,7 @@
 
 body, html {
   direction: rtl;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Heebo', sans-serif;
   background-color: #fff;
   color: #222;
 }
@@ -443,7 +443,7 @@ body, html {
 
 .icon-menu * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Heebo', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -646,7 +646,7 @@ body, html {
   position: relative;
   padding: 0.5em 0.8em;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-weight: 600;
   font-size: 22px;
   text-transform: uppercase;
@@ -699,7 +699,7 @@ body, html {
   margin-top: 30px;
   padding: 20px 15px;
   background-color: #1a1a1a;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Heebo', sans-serif;
   border-top: 1px solid #333;
 }
 
