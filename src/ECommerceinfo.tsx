@@ -1,25 +1,12 @@
 import React from 'react';
 import './ECommerceInfo.css';
-import onlineShopImg from './online-shop.png';
 
 const LuxuryEcommerce: React.FC = () => {
   return (
     <div className="luxury-container">
       <div
         className="luxury-hero"
-        style={{
-          backgroundImage: `url(${onlineShopImg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '90vh',
-          width : '200vh',
-          position: 'relative',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          margin: '0 auto', // מרכז אופקית
 
-        }}
       >
         <div className="luxury-hero-overlay">
           <h1 className="luxury-title">החנות שלך המומחיות שלנו</h1>

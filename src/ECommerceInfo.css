@@ -11,10 +11,10 @@
 }
 
 .luxury-hero {
-  background-image: './online-shop.png';
+  background-image: url('https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww');
   background-size: cover;
   background-position: center;
-  height: 85vh;
+  height: 75vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@
 .luxury-hero-overlay {
   font-family: 'Heebo', sans-serif;
   padding: 40px;
-  margin-top: -350px;
+  margin-top: -300px;
   margin-left: -150px;
   border-radius: 12px;
   text-align: center;
@@ -33,27 +33,25 @@
 
 .luxury-title {
   font-family: 'Rubik', sans-serif;
-  font-weight: 500; /* Rubik Medium */
   font-size: 3.5rem;
-  margin-bottom: 1%;
   font-weight: 600;
+  margin-bottom: 1%;
   margin-left: 30%;
-  background: linear-gradient(90deg, #110e0e, #795512);
-  background-clip: text;             /* הסטנדרטי */
-  -webkit-background-clip: text;     
-  -webkit-text-fill-color: transparent;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   animation: fadeIn 1.2s ease-in-out;
 }
 
 .luxury-subtitle {
   font-family: 'Rubik', sans-serif;
-  font-weight: 500; /* Rubik Medium */
   font-size: 1.4rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
   line-height: 1.6;
   margin-left: 30%;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
   animation: fadeIn 1.2s ease-in-out;
-
 }
 
 
