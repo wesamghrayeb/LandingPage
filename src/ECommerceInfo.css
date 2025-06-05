@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 
 .luxury-container {
   direction: rtl;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #1f1f1f;
+  color: #000000;
   background-color: #f8f9fa;
   overflow-x: hidden;
 }
 
 .luxury-hero {
-  background-image: url('C:\Users\Wjs digital\Downloads\ChatGPT Image Jun 4, 2025, 01_03_22 PM.png');
+  background-image: './online-shop.png';
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 85vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -20,28 +22,32 @@
 }
 
 .luxury-hero-overlay {
+  font-family: 'Heebo', sans-serif;
   padding: 40px;
+  margin-top: -350px;
+  margin-left: -150px;
   border-radius: 12px;
   text-align: center;
-  color: #fff;
   max-width: 600px;
 }
 
 .luxury-title {
-  font-size: 3rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500; /* Rubik Medium */
+  font-size: 3.5rem;
   margin-bottom: 1%;
-  font-weight: 700;
+  font-weight: 600;
   margin-left: 30%;
-  background: linear-gradient(90deg, #ffffff, #b8d7ff);
+  background: linear-gradient(90deg, #110e0e, #795512);
   background-clip: text;             /* הסטנדרטי */
-  -webkit-background-clip: text;     /* WebKit (Chrome, Safari) */
+  -webkit-background-clip: text;     
   -webkit-text-fill-color: transparent;
   animation: fadeIn 1.2s ease-in-out;
-
 }
 
 .luxury-subtitle {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500; /* Rubik Medium */
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
   line-height: 1.6;
@@ -53,7 +59,7 @@
 
 .luxury-cta {
   background-color: #d4af37;
-  color: #000;
+  color: #110e0e;
   border: none;
   padding: 0.8rem 2rem;
   font-size: 1rem;
@@ -68,11 +74,12 @@
 }
 
 .section-heading {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500; /* Rubik Medium */
   font-size: 3rem;
   text-align: center;
   margin: 3rem 0 1.5rem;
-  color: #084581;
+  color: rgb(141, 96, 29) !important;
   animation: slideFadeIn 1s ease-out;
 }
 @keyframes slideFadeIn {
@@ -93,7 +100,7 @@
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
-  color: #130b0b;
+  color: #141111;
 }
 
 .luxury-about p,

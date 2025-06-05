@@ -107,7 +107,7 @@ const MaldivesLanding: React.FC = () => {
 
         <div className="cards-row">
           <div className="destination-card border-anim">
-            <img src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg" alt="Maldives Resort" />
+            <img src="https://designplusmore.co.il/wp-content/uploads/liordekimhi1-1024x683.jpg" alt="Maldives Resort" />
             <h3>דפי נחיתה</h3>
             <p>מסר חד ועיצוב ממוקד, הנעה לפעולה וסגירת עסקה </p>
         <Link to="/ecommerce">
@@ -115,7 +115,7 @@ const MaldivesLanding: React.FC = () => {
             </Link>          </div>
 
           <div className="destination-card border-anim">
-            <img src="https://dmacmedia.com/ie/site/uploads/sys_articles/2748/3d-render-social-media-icon-collection.webp" alt="Snorkeling Maldives" />
+            <img src="https://webma.co.il/wp-content/uploads/2023/01/%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-1.jpg" alt="Snorkeling Maldives" />
             <h3>אתרי אינטרנט </h3>
             <p>נוכחות מרשימה, מותאם אישית, מוכן לקידום.</p>
         <Link to="/WebsiteDevelopment">
@@ -123,8 +123,8 @@ const MaldivesLanding: React.FC = () => {
             </Link>          </div>
 
           <div className="destination-card border-anim">
-            <img src="https://projexcrm.co.uk/wp-content/uploads/2023/02/CRM-11.webp" alt="Maldives Sunset" />
-            <h3>חנויות דיגיטלית</h3>
+            <img src="https://www.ekd.co.il/wp-content/uploads/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%A9%D7%9C-%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%97%D7%A0%D7%95%D7%AA-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99%D7%AA.jpg" alt="Maldives Sunset" />
+            <h3>חנות דיגיטלית</h3>
             <p>מכירה ישירה, סל קניות, תשלום מהיר</p>
         <Link to="/ecommerce">
           <button className="ecommerce-button">לפרטים</button>

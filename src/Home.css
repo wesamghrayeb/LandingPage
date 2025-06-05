@@ -113,6 +113,7 @@ body, html {
 .destinations-section {
   padding: 4rem 2rem;
   text-align: center;
+  
 }
 
 .destinations-section h2 {
@@ -425,7 +426,7 @@ body, html {
 .animated-social-icons ul li a .fa,
 .animated-social-icons ul li a .fab {
   font-size: 50px;
-  color: #262626;
+  color: #000000;
   transition: 0.5s;
   padding-right: 14px;
   display: flex;
@@ -589,13 +590,15 @@ body, html {
   margin: 15px 0 5px;
   font-size: 18px;
   text-align: center;
+
 }
 
 .border-anim p {
   font-size: 14px;
   color: #555;
   text-align: center;
-  margin: 0 15px;
+  margin-top: 0; /* מבטל ריחוק מהכותרת */
+  margin-bottom: 0;
 }
 
 .border-anim button {
