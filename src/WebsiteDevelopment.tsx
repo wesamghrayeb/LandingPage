@@ -28,7 +28,14 @@ const WebsiteDevelopment: React.FC = () => {
         </p>
 
         <div className="website-button-wrapper fade-in delay-3">
-          <button className="website-button">בוא נבנה אתר מנצח</button>
+          <button className="website-button"
+          onClick={() => {
+              window.open(
+                'https://wa.me/972508561773?text=שלום, אני מעוניין לקבל פרטים נוספים על בניית חנות דיגיטלית אצלכם.',
+                '_blank'
+              );
+            }}
+          >בוא נבנה אתר מנצח</button>
         </div>
       </div>
     </div>

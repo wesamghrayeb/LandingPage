@@ -16,10 +16,10 @@ const MaldivesLanding: React.FC = () => {
 
     emailjs
       .sendForm(
-        'service_ny46n8e',
-        'template_2wb07w2',
+        'service_r17aqda',
+        'template_claq6dt',
         form.current,
-        'VssIwsLXI8pDmqUPN'
+        'blTIPz66tRfQ9qRwz'
       )
       .then(
         () => {
@@ -76,62 +76,84 @@ const MaldivesLanding: React.FC = () => {
         </div>
       </div>
 
-      <div className="icon-menu">
-        <ul>
-          <li style={{ "--i": "#3b5998", "--j": "#8b9dc3" } as React.CSSProperties}>
-            <span className="icon"><i className="fab fa-facebook-f icon"></i></span>
-            <span className="title">Facebook</span>
-          </li>
-          <li style={{ "--i": "#1da1f2", "--j": "#0d8ddb" } as React.CSSProperties}>
-            <span className="icon"><i className="fab fa-twitter icon"></i></span>
-            <span className="title">Twitter</span>
-          </li>
-          <li style={{ "--i": "#dd4b39", "--j": "#c23321" } as React.CSSProperties}>
-            <span className="icon"><i className="fab fa-google icon"></i></span>
-            <span className="title">Google</span>
-          </li>
-          <li style={{ "--i": "#e4405f", "--j": "#ff6ec4" } as React.CSSProperties}>
-            <span className="icon"><i className="fab fa-instagram icon"></i></span>
-            <span className="title">Instagram</span>
-          </li>
-          <li style={{ "--i": "#0077b5", "--j": "#00a0dc" } as React.CSSProperties}>
-            <span className="icon"><i className="fab fa-linkedin-in icon"></i></span>
-            <span className="title">LinkedIn</span>
-          </li>
-        </ul>
-      </div>
+<div className="icon-menu">
+  <ul>
+    <li style={{ "--i": "#3b5998", "--j": "#8b9dc3" } as React.CSSProperties}>
+      <a href="https://www.facebook.com/people/Wjs-Digital-Innovations-Ltd/61575950244976/" target="_blank" rel="noopener noreferrer">
+        <span className="icon"><i className="fab fa-facebook-f icon"></i></span>
+        <span className="title">Facebook</span>
+      </a>
+    </li>
+
+    <li style={{ "--i": "#dd4b39", "--j": "#c23321" } as React.CSSProperties}>
+      <a href="https://g.co/kgs/AYR3y5J" target="_blank" rel="noopener noreferrer">
+        <span className="icon"><i className="fab fa-google icon"></i></span>
+        <span className="title">Google</span>
+      </a>
+    </li>
+
+    <li style={{ "--i": "#e4405f", "--j": "#ff6ec4" } as React.CSSProperties}>
+      <a href="https://www.instagram.com/p/DI0-7T1tVJ7/" target="_blank" rel="noopener noreferrer">
+        <span className="icon"><i className="fab fa-instagram icon"></i></span>
+        <span className="title">Instagram</span>
+      </a>
+    </li>
+
+    <li style={{ "--i": "#0077b5", "--j": "#00a0dc" } as React.CSSProperties}>
+      <a href="https://il.linkedin.com/company/wjs-digital-innovations" target="_blank" rel="noopener noreferrer">
+        <span className="icon"><i className="fab fa-linkedin-in icon"></i></span>
+        <span className="title">LinkedIn</span>
+      </a>
+    </li>
+  </ul>
+</div>
 <AnimationDemo/>
-      <section className="destinations-section">
-        <h2>המוצרים שלנו</h2>
-        <p>דפי נחיתה, אתרי אינטרנט, חנויות e commerce , פיתוח מערכות crm מותאמות לעסקים</p>
+<section className="destinations-section">
+  <h2>המוצרים שלנו</h2>
+  <p>דפי נחיתה, אתרי אינטרנט, חנויות E-commerce, פיתוח מערכות CRM מותאמות לעסקים</p>
 
-        <div className="cards-row">
-          <div className="destination-card border-anim">
-            <img src="https://designplusmore.co.il/wp-content/uploads/liordekimhi1-1024x683.jpg" alt="Maldives Resort" />
-            <h3>דפי נחיתה</h3>
-            <p>מסר חד ועיצוב ממוקד, הנעה לפעולה וסגירת עסקה </p>
-        <Link to="/ecommerce">
-          <button className="ecommerce-button">לפרטים</button>
-            </Link>          </div>
+  <div className="cards-row">
+    {/* דף נחיתה */}
+    <div className="destination-card border-anim">
+      <img
+        src="https://designplusmore.co.il/wp-content/uploads/liordekimhi1-1024x683.jpg"
+        alt="עיצוב דף נחיתה"
+      />
+      <h3>דפי נחיתה</h3>
+      <p>מסר חד ועיצוב ממוקד, הנעה לפעולה וסגירת עסקה.</p>
+      <Link to="/LandingPages">
+        <button className="ecommerce-button">לפרטים</button>
+      </Link>
+    </div>
 
-          <div className="destination-card border-anim">
-            <img src="https://webma.co.il/wp-content/uploads/2023/01/%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-1.jpg" alt="Snorkeling Maldives" />
-            <h3>אתרי אינטרנט </h3>
-            <p>נוכחות מרשימה, מותאם אישית, מוכן לקידום.</p>
-        <Link to="/WebsiteDevelopment">
-          <button className="ecommerce-button">לפרטים</button>
-            </Link>          </div>
+    {/* אתרי אינטרנט */}
+    <div className="destination-card border-anim">
+      <img
+        src="https://webma.co.il/wp-content/uploads/2023/01/%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%90%D7%AA%D7%A8%D7%99%D7%9D-1.jpg"
+        alt="פיתוח אתרי אינטרנט"
+      />
+      <h3>אתרי אינטרנט</h3>
+      <p>נוכחות מרשימה, מותאם אישית, מוכן לקידום.</p>
+      <Link to="/WebsiteDevelopment">
+        <button className="ecommerce-button">לפרטים</button>
+      </Link>
+    </div>
 
-          <div className="destination-card border-anim">
-            <img src="https://www.ekd.co.il/wp-content/uploads/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%A9%D7%9C-%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%97%D7%A0%D7%95%D7%AA-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99%D7%AA.jpg" alt="Maldives Sunset" />
-            <h3>חנות דיגיטלית</h3>
-            <p>מכירה ישירה, סל קניות, תשלום מהיר</p>
-        <Link to="/ecommerce">
-          <button className="ecommerce-button">לפרטים</button>
-            </Link>
-          </div>
-        </div>
-      </section>
+    {/* חנות דיגיטלית */}
+    <div className="destination-card border-anim">
+      <img
+        src="https://www.ekd.co.il/wp-content/uploads/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%A9%D7%9C-%D7%91%D7%A0%D7%99%D7%99%D7%AA-%D7%97%D7%A0%D7%95%D7%AA-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99%D7%AA.jpg"
+        alt="בניית חנות דיגיטלית"
+      />
+      <h3>חנות דיגיטלית</h3>
+      <p>מכירה ישירה, סל קניות, תשלום מהיר.</p>
+      <Link to="/ecommerce">
+        <button className="ecommerce-button">לפרטים</button>
+      </Link>
+    </div>
+  </div>
+</section>
+
 
       <section className="testimonials-section">
         <h2>אנחנו לא רק מפרסמים. אנחנו מדייקים כל חלק במכונה.</h2>
@@ -153,23 +175,26 @@ const MaldivesLanding: React.FC = () => {
       </section>
 
       <footer className="footer-section">
-        <form className="form-box">
-          <input type="text" placeholder="שם פרטי" />
-          <input type="email" placeholder="אימייל" />
-          <input type="tel" placeholder="טלפון" />
-          <button type="submit">הרשמה לחופשה הבאה שלי!</button>
-        </form>
-        <div className="social-icons dark-bg">
-          <ul>
-            <li><a href="#"><i className="fab fa-facebook-f icon"></i></a></li>
-            <li><a href="#"><i className="fab fa-twitter icon"></i></a></li>
-            <li><a href="#"><i className="fab fa-linkedin-in icon"></i></a></li>
-            <li><a href="#"><i className="fab fa-google-plus-g icon"></i></a></li>
-          </ul>
-        </div>
-        <div className="footer-note">
-          This Landing Page Was Developed By Wjs Digital Innovations Ltd 
-        </div>
+
+<div className="social-icons dark-bg">
+  <ul>
+    <li>
+      <a href="https://www.facebook.com/people/Wjs-Digital-Innovations-Ltd/61575950244976/" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-facebook-f icon"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/p/DI0-7T1tVJ7/" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-instagram icon"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://g.co/kgs/AYR3y5J" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-google-plus-g icon"></i>
+      </a>
+    </li>
+  </ul>
+</div>
       </footer>
     </div>
   );

@@ -29,9 +29,19 @@ const LandingPages: React.FC = () => {
           קמפיין טוב מתחיל בדף שמוכר. וזה בדיוק מה שאנחנו יודעים לעשות.
         </p>
 
-        <div className="landing-button-wrapper fade-in delay-3">
-          <button className="landing-button">התחל עכשיו</button>
-        </div>
+<div className="landing-button-wrapper fade-in delay-3">
+  <button
+    className="landing-button"
+    onClick={() => {
+      window.open(
+        'https://wa.me/972508561773?text=שלום, אני מעוניין לקבל פרטים נוספים על בניית חנות דיגיטלית אצלכם.',
+        '_blank'
+      );
+    }}
+  >
+    התחל עכשיו
+  </button>
+</div>
       </div>
     </div>
   );

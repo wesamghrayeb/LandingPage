@@ -19,6 +19,11 @@ const App: React.FC = () => {
 
 
         </Routes>
+                <footer>
+          <div className="footer-note">
+            This Landing Page Was Developed By Wjs Digital Innovations Ltd ©
+          </div>
+        </footer>
       </Router>
     </div>
   );
